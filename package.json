@@ -1,0 +1,21 @@
+{
+  "name": "sssx-plugin-spjx",
+  "plugin": "sssx-spjx",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.mjs",
+  "description": "双生插件（OneBot + QQ 官方）：抖音 / 快手 / B站 / 小红书 内容解析",
+  "author": "sssx-spjx",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.3.1",
+    "@types/node": "^20.19.33",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.1"
+  },
+  "scripts": {
+    "build": "vite build && node scripts/build-api.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node tests/selftest.mjs"
+  }
+}

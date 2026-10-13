@@ -1,0 +1,8 @@
+{
+  "name": "sssx-plugin-spjx",
+  "displayName": "视频解析（双生）",
+  "author": "sssx-spjx",
+  "version": "0.1.0",
+  "entry": "index.mjs",
+  "description": "双生插件：抖音 / 快手 / B站 / 小红书 内容解析（官方侧 MD 输出，OneBot 侧走 MKbot 同款输出）"
+}
